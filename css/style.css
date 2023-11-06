@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Urbanist', sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 94%);
+    display: grid;
+    place-items: center;
+}
+
+#calculator {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#display {
+    margin: 10px;
+    width: 90%;
+    font-size: 25px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+}
